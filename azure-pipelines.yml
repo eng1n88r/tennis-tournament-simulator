@@ -4,7 +4,9 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
 trigger:
+- master
 - dev
+- feature/*
 
 pool:
   vmImage: 'VS2017-Win2016'
